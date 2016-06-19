@@ -42,6 +42,9 @@ class FacebookOauthViewController: UIViewController, FBSDKLoginButtonDelegate {
             }
             
             // ログイン後の処理はここに書く
+            let mySecondViewController: UIViewController = ArticleListViewController()
+            mySecondViewController.modalTransitionStyle = UIModalTransitionStyle.PartialCurl
+            self.presentViewController(mySecondViewController, animated: true, completion: nil)
         }
     }
     

@@ -7,8 +7,11 @@ target 'CocoaPodsExample' do
 
   # Pods for CocoaPodsExample
   pod 'LTMorphingLabel'
-  pod 'Alamofire'
+  pod 'Alamofire', '~> 3.0'
   pod 'SwiftyJSON'
+  pod ‘FBSDKCoreKit’
+  pod ‘FBSDKLoginKit’
+  pod ‘FBSDKShareKit’
   target 'CocoaPodsExampleTests' do
     inherit! :search_paths
     # Pods for testing

@@ -16,6 +16,7 @@
 		440A2A141D09CDDE0021BA15 /* CocoaPodsExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440A2A131D09CDDE0021BA15 /* CocoaPodsExampleUITests.swift */; };
 		440A2A281D0DA0DF0021BA15 /* ArticleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440A2A271D0DA0DF0021BA15 /* ArticleListViewController.swift */; };
 		5AE1C0096195D29C82BA97A4 /* Pods_CocoaPodsExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AF6743D11D378C6BE1AE89 /* Pods_CocoaPodsExampleTests.framework */; };
+		F412A6321D1696500062E4C1 /* FacebookOauthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F412A6311D1696500062E4C1 /* FacebookOauthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		6E3AD3CBA830AB557BDEAF06 /* Pods-CocoaPodsExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaPodsExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaPodsExampleUITests/Pods-CocoaPodsExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		94BD93E6B998C13C2B4D4577 /* Pods-CocoaPodsExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaPodsExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaPodsExampleUITests/Pods-CocoaPodsExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A224A6182B7E868E73B968E2 /* Pods_CocoaPodsExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoaPodsExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F412A6311D1696500062E4C1 /* FacebookOauthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookOauthViewController.swift; sourceTree = "<group>"; };
 		FAD0FAFF8B0E4062681FFEEE /* Pods-CocoaPodsExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaPodsExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaPodsExampleTests/Pods-CocoaPodsExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FD1E94027F82D6FB3981ECD3 /* Pods-CocoaPodsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaPodsExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaPodsExample/Pods-CocoaPodsExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,6 +133,7 @@
 				440A2A271D0DA0DF0021BA15 /* ArticleListViewController.swift */,
 				440A29FA1D09CDDE0021BA15 /* Assets.xcassets */,
 				440A29FF1D09CDDE0021BA15 /* Info.plist */,
+				F412A6311D1696500062E4C1 /* FacebookOauthViewController.swift */,
 			);
 			path = CocoaPodsExample;
 			sourceTree = "<group>";
@@ -443,6 +446,7 @@
 			files = (
 				440A2A281D0DA0DF0021BA15 /* ArticleListViewController.swift in Sources */,
 				440A29F61D09CDDE0021BA15 /* ViewController.swift in Sources */,
+				F412A6321D1696500062E4C1 /* FacebookOauthViewController.swift in Sources */,
 				440A29F41D09CDDE0021BA15 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

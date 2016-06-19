@@ -7,7 +7,7 @@ target 'CocoaPodsExample' do
 
   # Pods for CocoaPodsExample
   pod 'LTMorphingLabel'
-  pod 'Alamofire', '~> 3.0'
+  pod 'Alamofire'
   target 'CocoaPodsExampleTests' do
     inherit! :search_paths
     # Pods for testing
